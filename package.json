@@ -1,0 +1,21 @@
+{
+  "name": "homebridge-deako",
+  "displayName": "Homebridge Deako",
+  "version": "1.0.0",
+  "description": "Control Deako smart light switches from Apple Home, locally, through the Deako hub's local integration API.",
+  "main": "index.js",
+  "files": ["index.js", "lib/", "config.schema.json", "README.md", "LICENSE", "CHANGELOG.md"],
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": ["homebridge-plugin", "homebridge", "deako", "homekit", "light", "switch", "dimmer", "local"],
+  "engines": {
+    "homebridge": "^1.8.0 || ^2.0.0",
+    "node": "^20.18.0 || ^22.10.0 || ^24.0.0 || ^26.0.0"
+  },
+  "repository": { "type": "git", "url": "git+https://github.com/mitch-zink/homebridge-deako.git" },
+  "bugs": { "url": "https://github.com/mitch-zink/homebridge-deako/issues" },
+  "homepage": "https://github.com/mitch-zink/homebridge-deako#readme",
+  "author": "Mitch Zink",
+  "license": "MIT"
+}

@@ -1,0 +1,14 @@
+{
+  "pluginAlias": "Deako",
+  "pluginType": "platform",
+  "singular": true,
+  "headerDisplay": "Controls Deako lights over your local network. Enter the IP address of the Deako device that runs the local integration (it listens on TCP port 23). Reserve that IP in your router so it does not change.",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "name": { "title": "Name", "type": "string", "default": "Deako", "required": true },
+      "host": { "title": "Hub IP address", "type": "string", "format": "ipv4", "required": true, "placeholder": "192.168.1.50" },
+      "port": { "title": "Port", "type": "integer", "default": 23, "minimum": 1, "maximum": 65535 }
+    }
+  }
+}
